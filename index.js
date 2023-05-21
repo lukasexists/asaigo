@@ -5,6 +5,8 @@ import { uvPath } from "uv";
 import { join } from "node:path";
 import { hostname } from "node:os";
 
+console.log(uvPath);
+
 const bare = createBareServer("/bare/");
 const app = express();
 
