@@ -34,8 +34,6 @@ server.on("upgrade", (req, socket, head) => {
   }
 });
 
-let port = parseInt(process.env.PORT || "");
-
 server.on("listening", () => {
   const address = server.address();
 
