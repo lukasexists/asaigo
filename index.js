@@ -5,7 +5,7 @@ import { hostname } from "node:os";
 import createBareServer from "@tomphttp/bare-server-node";
 import express from "express";
 var app = express();
-//var server = require('http').createServer(app);
+//var server = require('http').createServer(app);//
 var port = process.env.PORT || 3000;
 
 app.listen(port, function () {
