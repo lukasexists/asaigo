@@ -1,12 +1,11 @@
 {
   "name": "node-asiago-cheese",
   "version": "1.0.0",
-  "description": "",
+  "description": "jjjjjj",
   "main": "index.js",
   "type": "module",
   "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=16.0.0"
+    "node": "10.x"
   },
   "scripts": {
     "start": "node index.js"
@@ -15,6 +14,6 @@
   "dependencies": {
     "@tomphttp/bare-server-node": "^1.2.5",
     "express": "^4.18.2",
-    "uv": "lukasexists/ultv"
+    "uv": "github:lukasexists/ultv"
   }
 }
